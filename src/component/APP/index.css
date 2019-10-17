@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  width: 600px;
+  padding: 20px 40px;
+  background-color: #ccc;
+}
+.reply {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.content {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+.content ul li {
+  width: 300px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  margin-left: 10px;
+}
